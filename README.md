@@ -1,6 +1,35 @@
 # learning-smalltalk
 Repository created in order to learn basics about Smalltalk programming language
 
+## Preparation and executing first program on Linux
+
+Install Smalltalk:
+
+```
+sudo apt-get install gnu-smalltalk
+```
+
+Create Hello World program in `hello_world.st` file:
+
+```smalltalk
+"Hello world Program"
+
+'Hello World!' printNl !
+```
+
+Execute program:
+
+```
+/usr/bin/gst hello_world.st
+```
+
+You should see the following output:
+
+```
+'Hello World!'
+```
+
+
 ## References
 - [Smalltalk website](http://www.smalltalk.org/)
 - [Smalltalk on Wikipedia](https://en.wikipedia.org/wiki/Smalltalk)
