@@ -29,6 +29,13 @@ You should see the following output:
 'Hello World!'
 ```
 
+You can also run Smalltalk console by typing:
+
+```
+/usr/bin/gst -q
+```
+
+and write code directly there.
 
 ## References
 - [Smalltalk website](http://www.smalltalk.org/)
